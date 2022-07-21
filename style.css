@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+    font-weight: 800;
+}
+h3{
+    border: 80px; 
+    background-color: #016b73;
+    border-radius: 40px;
+}
+span{
+    color: #00a773;
+    
+}
+li{
+    display: inline-block;
+    margin: 25px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 40px;
+    line-height: 13px;
+}
+p{
+    line-height: 22px;
+    max-width: 500px;
+
+}
+img {
+    width: 470px;
+    margin-left: 60px;
+}
+a{
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    border: #016b73 2px solid ; border-radius: 20px; 
+    letter-spacing: 1px;
+}
+a:hover{
+    color: #00a773;
+    transition: 0.5s all;
+}
+
+#cadastro-btn{
+    border: 50px ;
+    border-radius: 25px;
+    background-color: #00a77257;
+    
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input{
+    margin-top: 10px;
+    cursor: pointer;
+    height: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+#button{
+    height: 50px;
+    width: 50%;
+    background-color: #00a773;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    }
+#button:hover{
+    background-color: #016b73;
+    transition: 0.5s;
+}
